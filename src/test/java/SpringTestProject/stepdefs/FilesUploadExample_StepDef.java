@@ -70,7 +70,7 @@ public class FilesUploadExample_StepDef {
     }
 
     @And("User clicks {string} button")
-    public void userClicksButton(String btn_name {
+    public void userClicksButton(String btn_name) {
     }
 
     @And("User clicks the Submit button")
