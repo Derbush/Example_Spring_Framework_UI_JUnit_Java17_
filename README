@@ -1,0 +1,21 @@
+Hi!
+
+This is en example of Spring JUnit Cucumber Framework build by me for my project
+with Digital Marketing agency to test application for managing builboards advertisings across the country
+
+It's a UI framwwork with the following tech stack: using Spring, Java, JUnit5, Cucumber and Jenkins.
+
+This framework doesn't contain real projects tests but can be use as basis for other projects.
+
+Please use the following configurations to run your test sweat:
+
+SET UP for JUNIT Runner to start Spring build on your local computer:
+Enviroment variables = spring.profiles.active=stage,local
+
+SET UP for Maven & JUNIT Runner to start Spring build on your Jenkins in Configure:
+-e clean test -Dcucumber.filter.tags="@smoke and not @obsolete" -Dspring.profiles.active=stage,remote
+
+
+
+
+
